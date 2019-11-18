@@ -1,0 +1,44 @@
+{
+    "data":[
+        {
+            "id":1,
+            "style": "nama1",
+            "nama": "my name",
+            "divisi": "Frontend Developer",
+            "img":"https://us.123rf.com/450wm/triken/triken1608/triken160800028/61320729-stock-vector-male-avatar-profile-picture-default-user-avatar-guest-avatar-simply-human-head-vector-illustration-i.jpg?ver=6",
+            "tentang":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta autem nulla dignissimos reprehenderit velit tenetur magni ea similique veritatis quasi officia quae, assumenda quas, rerum eius perspiciatis iure ipsam necessitatibus?"
+        },
+        {
+            "id":2,
+            "nama": "my name2",
+            "style": "nama2",
+            "divisi": "Backend  Developer",
+            "img":"https://us.123rf.com/450wm/triken/triken1608/triken160800028/61320729-stock-vector-male-avatar-profile-picture-default-user-avatar-guest-avatar-simply-human-head-vector-illustration-i.jpg?ver=6",
+            "tentang":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta autem nulla dignissimos reprehenderit velit tenetur magni ea similique veritatis quasi officia quae, assumenda quas, rerum eius perspiciatis iure ipsam necessitatibus?"
+        },
+        {
+            "id":3,
+            "nama": "my name3",
+            "style": "nama3",
+            "divisi": "Mobile  Developer",
+            "img":"https://us.123rf.com/450wm/triken/triken1608/triken160800028/61320729-stock-vector-male-avatar-profile-picture-default-user-avatar-guest-avatar-simply-human-head-vector-illustration-i.jpg?ver=6",
+            "tentang":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta autem nulla dignissimos reprehenderit velit tenetur magni ea similique veritatis quasi officia quae, assumenda quas, rerum eius perspiciatis iure ipsam necessitatibus?"
+        },
+        {
+            "id":4,
+            "nama": "my name4",
+            "style": "nama4",
+            "divisi": "Backend  Developer",
+            "img":"https://us.123rf.com/450wm/triken/triken1608/triken160800028/61320729-stock-vector-male-avatar-profile-picture-default-user-avatar-guest-avatar-simply-human-head-vector-illustration-i.jpg?ver=6",
+            "tentang":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta autem nulla dignissimos reprehenderit velit tenetur magni ea similique veritatis quasi officia quae, assumenda quas, rerum eius perspiciatis iure ipsam necessitatibus?"
+        },
+        {
+            "id":5,
+            "nama": "my name5",
+            "style": "nama5",
+            "divisi": "frontEnd  Developer",
+            "img":"https://us.123rf.com/450wm/triken/triken1608/triken160800028/61320729-stock-vector-male-avatar-profile-picture-default-user-avatar-guest-avatar-simply-human-head-vector-illustration-i.jpg?ver=6",
+            "tentang":"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta autem nulla dignissimos reprehenderit velit tenetur magni ea similique veritatis quasi officia quae, assumenda quas, rerum eius perspiciatis iure ipsam necessitatibus?"
+        }
+    ]
+}

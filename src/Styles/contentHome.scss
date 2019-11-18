@@ -1,0 +1,111 @@
+.contentHome {
+  margin-top: 100px;
+
+  #icon-list {
+    display: none;
+  }
+
+  .artikel {
+    overflow-y: scroll;
+    height: 85vh;
+    img {
+      width: 100%;
+      height: 600px;
+    }
+    h1 {
+      font-size: 60px;
+    }
+    p {
+      font-size: 20px;
+    }
+  }
+}
+.list {
+  background: #079078;
+  border-radius: 10px;
+
+  #header {
+    background: #079078;
+    color: white;
+  }
+}
+
+.box {
+  height: 75vh;
+  overflow-y: scroll;
+  background: #079078;
+}
+
+.nama1 {
+  color: red;
+}
+.nama2 {
+  color: blue;
+}
+
+@media only screen and (max-width: 800px) {
+  .contentHome {
+    .list {
+      display: none;
+      transition: 1s;
+    }
+    
+    
+    #show-list {
+      display: block;
+      transition: 1s;
+      position: absolute;
+      right: 1px;
+
+      -webkit-animation-duration: 1s;
+      animation-duration: 1s;
+      -webkit-animation-fill-mode: both;
+      animation-fill-mode: both;
+    }
+
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 100%, 0);
+        transform: translate3d(0, 100%, 0);
+      }
+
+      to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+      }
+    }
+
+    #show-list {
+      -webkit-animation-name: fadeInUp;
+      animation-name: fadeInUp;
+    }
+
+    #icon-list {
+      display: block;
+      position: fixed;
+      z-index: 999;
+      font-size: 40px;
+      right: 15px;
+      bottom: 5px;
+      margin-right: 20px;
+      margin-bottom: 20px;
+      color: #079078;
+    }
+
+    .artikel {
+      width: 100%;
+      img {
+        width: 100%;
+        height: 200px;
+      }
+      h1 {
+        font-size: 40px;
+      }
+      p {
+        font-size: 20px;
+      }
+    }
+  }
+}
